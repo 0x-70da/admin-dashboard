@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+:root {
+    --primary-color: #00FF00;
+}
+
+@layer base {
+    h1 {
+        @apply text-3xl font-bold text-(--primary-color);
+    }
+}
