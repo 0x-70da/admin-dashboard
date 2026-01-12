@@ -2,11 +2,12 @@
 import StatCard from "@/components/StatCard";
 import { DollarSign, ShoppingBag, SquareActivity, Users } from "lucide-react";
 import { motion } from "framer-motion";
+import SalesOverviewChart from "@/components/charts/SalesOverviewChart";
 
 const OverviewPage = () => {
   return (
-    <main>
-      <motion.div
+    <main className="space-y-8">
+      <motion.section
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.75 }}
@@ -16,7 +17,11 @@ const OverviewPage = () => {
         <StatCard name="Total Clients" icon={Users} value="1,437" />
         <StatCard name="Total Products" icon={ShoppingBag} value="674" />
         <StatCard name="Stock" icon={SquareActivity} value="12,845" />
-      </motion.div>
+      </motion.section>
+
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <SalesOverviewChart />
+      </section>
     </main>
   );
 };
