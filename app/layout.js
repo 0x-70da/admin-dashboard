@@ -11,9 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="bg-[#121212] text-white">
-        <div className="global-container min-h-screen w-full flex gap-4">
+        <div className="global-container h-screen w-full flex gap-4">
           <Sidebar />
-          <div className="p-4 w-full">
+          <div className="p-4 w-full overflow-auto">
             <Header />
             {children}
           </div>
