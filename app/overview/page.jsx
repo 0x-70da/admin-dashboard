@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import SalesOverviewChart from "@/components/charts/SalesOverviewChart";
 import CategoryDistributionChart from "@/components/charts/CategoryDistributionChart";
 import OrderDistributionChart from "@/components/charts/OrderDistributionChart";
+import ProductPerformanceChart from "@/components/charts/ProductPerformanceChart";
 
 const OverviewPage = () => {
   return (
@@ -25,6 +26,7 @@ const OverviewPage = () => {
         <SalesOverviewChart />
         <CategoryDistributionChart />
         <OrderDistributionChart />
+        <ProductPerformanceChart />
       </section>
     </main>
   );
