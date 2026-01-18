@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import {
   BarChart,
   Bar,
@@ -10,16 +11,23 @@ import {
   Legend,
 } from "recharts";
 
-// test data
-const data = [
-  { name: "Product A", sales: 4500, revenue: 12000 },
-  { name: "Product B", sales: 3200, revenue: 8500 },
-  { name: "Product C", sales: 5800, revenue: 15000 },
-  { name: "Product D", sales: 2800, revenue: 7200 },
-  { name: "Product E", sales: 4200, revenue: 11000 },
-];
-
 const ProductPerformanceChart = () => {
+    const [data, setData] = useState([]);
+  
+    useEffect(() => {
+      const res = fetch("/data/productPerformanceData.json")
+        .then((response) => {
+          if (!response.ok) throw new Error("error fetching data");
+          return response.json();
+        })
+        .then((data) => {
+          setData(data.products);
+        })
+        .catch((err) => {
+          console.error("Error fetching product performance data:", err);
+        });
+    }, []);
+  
   return (
     <div className="p-4 md:p-6 bg-(--background-secondary) rounded-lg">
       <h2 className="text-base md:text-lg font-medium mb-4 text-center md:text-left">

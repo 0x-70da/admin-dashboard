@@ -1,0 +1,9 @@
+{
+  "orders": [
+    { "name": "Pending", "value": 1200 },
+    { "name": "Processing", "value": 800 },
+    { "name": "Shipped", "value": 1500 },
+    { "name": "Delivered", "value": 3500 },
+    { "name": "Cancelled", "value": 300 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "products": [
+    { "name": "Product A", "sales": 4500, "revenue": 12000 },
+    { "name": "Product B", "sales": 3200, "revenue": 8500 },
+    { "name": "Product C", "sales": 5800, "revenue": 15000 },
+    { "name": "Product D", "sales": 2800, "revenue": 7200 },
+    { "name": "Product E", "sales": 4200, "revenue": 11000 }
+  ]
+}
