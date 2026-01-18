@@ -1,4 +1,5 @@
 "use client";
+import { useEffect, useState } from "react";
 import {
   PieChart,
   Pie,
@@ -8,18 +9,24 @@ import {
   Legend,
 } from "recharts";
 
-// test data
-const data = [
-  { name: "Electronics", value: 4500 },
-  { name: "Clothing", value: 3200 },
-  { name: "Food", value: 2800 },
-  { name: "Books", value: 1500 },
-  { name: "Home & Garden", value: 2000 },
-];
-
 const COLORS = ["#10b981", "#3b82f6", "#f59e0b", "#ef4444", "#8b5cf6"];
 
 const CategoryDistributionChart = () => {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    const res = fetch("/data/categoryDistributionData.json")
+      .then((response) => {
+        if (!response.ok) throw new Error("error fetching data");
+        return response.json();
+      })
+      .then((data) => {
+        setData(data.categories);
+      })
+      .catch((err) => {
+        console.error("Error fetching category distribution data:", err);
+      });
+  }, []);
   return (
     <div className="p-4 md:p-6 bg-(--background-secondary) rounded-lg">
       <h2 className="text-base md:text-lg font-medium mb-4 text-center md:text-left">
