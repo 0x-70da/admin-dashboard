@@ -1,0 +1,9 @@
+{
+  "categories": [
+    { "name": "Electronics", "value": 4500 },
+    { "name": "Clothing", "value": 3200 },
+    { "name": "Food", "value": 2800 },
+    { "name": "Books", "value": 1500 },
+    { "name": "Home & Garden", "value": 2000 }
+  ]
+}
