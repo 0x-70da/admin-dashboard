@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "image": "/images/mouse.jpg",
+    "category": "Electronics",
+    "price": 25.99,
+    "stock": 120,
+    "sales": 85
+  },
+  {
+    "id": 2,
+    "name": "Bluetooth Headphones",
+    "image": "/images/headphones.jpg",
+    "category": "Electronics",
+    "price": 59.99,
+    "stock": 75,
+    "sales": 40
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "image": "/images/shoes.jpg",
+    "category": "Footwear",
+    "price": 89.99,
+    "stock": 60,
+    "sales": 30
+  },
+  {
+    "id": 4,
+    "name": "Smart Watch",
+    "image": "/images/watch.jpg",
+    "category": "Electronics",
+    "price": 129.99,
+    "stock": 45,
+    "sales": 22
+  },
+  {
+    "id": 5,
+    "name": "Yoga Mat",
+    "image": "/images/yogamat.jpg",
+    "category": "Fitness",
+    "price": 19.99,
+    "stock": 200,
+    "sales": 150
+  },
+  {
+    "id": 6,
+    "name": "Water Bottle",
+    "image": "/images/bottle.jpg",
+    "category": "Fitness",
+    "price": 12.99,
+    "stock": 180,
+    "sales": 110
+  },
+  {
+    "id": 7,
+    "name": "Desk Lamp",
+    "image": "/images/lamps.jpg",
+    "category": "Home",
+    "price": 34.99,
+    "stock": 90,
+    "sales": 55
+  },
+  {
+    "id": 8,
+    "name": "Backpack",
+    "image": "/images/backpack.jpg",
+    "category": "Accessories",
+    "price": 49.99,
+    "stock": 70,
+    "sales": 38
+  },
+  {
+    "id": 9,
+    "name": "Coffee Maker",
+    "image": "/images/coffeemaker.jpg",
+    "category": "Home",
+    "price": 79.99,
+    "stock": 35,
+    "sales": 20
+  },
+  {
+    "id": 10,
+    "name": "Sunglasses",
+    "image": "/images/sunglasses.jpg",
+    "category": "Accessories",
+    "price": 29.99,
+    "stock": 150,
+    "sales": 95
+  }
+]

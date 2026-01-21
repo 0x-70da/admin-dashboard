@@ -15,7 +15,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const sideBarItems = [
-  { icon: Home, title: "Dashboard" },
+  { icon: Home, title: "Overview" },
   { icon: SquareChartGantt, title: "Products" },
   { icon: UsersRound, title: "Clients" },
   { icon: DollarSign, title: "Sales" },
@@ -45,7 +45,7 @@ const Sidebar = () => {
         {sideBarItems.map((item, index) => (
           <Link
             key={index}
-            href="#"
+            href={item.title.toLowerCase()}
             className="flex items-center justify-start space-x-2 hover:bg-(--background-secondary-hover) px-2 py-3 rounded-lg"
           >
             <span className="w-8 h-8 flex items-center justify-center">
