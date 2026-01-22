@@ -12,12 +12,13 @@ import {
   UsersRound,
 } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const sideBarItems = [
   { icon: Home, title: "Overview" },
   { icon: SquareChartGantt, title: "Products" },
-  { icon: UsersRound, title: "Clients" },
+  { icon: UsersRound, title: "Users" },
   { icon: DollarSign, title: "Sales" },
   { icon: ShoppingCart, title: "Orders" },
   { icon: Settings, title: "Settings" },
@@ -28,6 +29,7 @@ const sideBarItems = [
 
 const Sidebar = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(true);
+  const pathname = usePathname();
 
   return (
     <div
@@ -46,7 +48,9 @@ const Sidebar = () => {
           <Link
             key={index}
             href={item.title.toLowerCase()}
-            className="flex items-center justify-start space-x-2 hover:bg-(--background-secondary-hover) px-2 py-3 rounded-lg"
+            className={`flex items-center justify-start space-x-2 hover:bg-(--background-secondary-hover) px-2 py-3 rounded-lg ${
+              pathname === `/${item.title.toLowerCase()}` ? "bg-(--background-secondary-hover)" : ""
+            }`}
           >
             <span className="w-8 h-8 flex items-center justify-center">
               <item.icon size={24} color="var(--primary-green)" />
