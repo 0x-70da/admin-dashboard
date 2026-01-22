@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "John Anderson",
+        "email": "john.anderson@email.com",
+        "phone": "+1 (555) 123-4567",
+        "country": "United States",
+        "avatar": "/images/avatars/avatar2.png"
+    },
+    {
+        "id": 2,
+        "name": "Sarah Mitchell",
+        "email": "sarah.mitchell@email.com",
+        "phone": "+44 20 7123 4567",
+        "country": "United Kingdom",
+        "avatar": "/images/avatars/avatar3.png"
+    },
+    {
+        "id": 3,
+        "name": "Michael Chen",
+        "email": "michael.chen@email.com",
+        "phone": "+86 138 0013 8000",
+        "country": "China",
+        "avatar": "/images/avatars/avatar4.png"
+    },
+    {
+        "id": 4,
+        "name": "Emma Williams",
+        "email": "emma.williams@email.com",
+        "phone": "+61 2 9876 5432",
+        "country": "Australia",
+        "avatar": "/images/avatars/avatar5.png"
+    },
+    {
+        "id": 5,
+        "name": "David Rodriguez",
+        "email": "david.rodriguez@email.com",
+        "phone": "+34 91 123 4567",
+        "country": "Spain",
+        "avatar": "/images/avatars/avatar6.png"
+    },
+    {
+        "id": 6,
+        "name": "Lisa Kumar",
+        "email": "lisa.kumar@email.com",
+        "phone": "+91 22 1234 5678",
+        "country": "India",
+        "avatar": "/images/avatars/avatar7.png"
+    },
+    {
+        "id": 7,
+        "name": "James Taylor",
+        "email": "james.taylor@email.com",
+        "phone": "+1 (416) 555-9876",
+        "country": "Canada",
+        "avatar": "/images/avatars/avatar8.png"
+    },
+    {
+        "id": 8,
+        "name": "Sophie Martin",
+        "email": "sophie.martin@email.com",
+        "phone": "+33 1 42 86 82 00",
+        "country": "France",
+        "avatar": "/images/avatars/avatar9.png"
+    },
+    {
+        "id": 9,
+        "name": "Daniel Schmidt",
+        "email": "daniel.schmidt@email.com",
+        "phone": "+49 30 12345678",
+        "country": "Germany",
+        "avatar": "/images/avatars/avatar10.png"
+    },
+    {
+        "id": 10,
+        "name": "Maria Garcia",
+        "email": "maria.garcia@email.com",
+        "phone": "+52 55 1234 5678",
+        "country": "Mexico",
+        "avatar": "/images/avatars/avatar11.png"
+    },
+    {
+        "id": 11,
+        "name": "Robert Johnson",
+        "email": "robert.johnson@email.com",
+        "phone": "+1 (212) 555-3456",
+        "country": "United States",
+        "avatar": "/images/avatars/avatar12.png"
+    },
+    {
+        "id": 12,
+        "name": "Anna Kowalski",
+        "email": "anna.kowalski@email.com",
+        "phone": "+48 22 123 45 67",
+        "country": "Poland",
+        "avatar": "/images/avatars/avatar13.png"
+    },
+    {
+        "id": 13,
+        "name": "Carlos Silva",
+        "email": "carlos.silva@email.com",
+        "phone": "+55 11 98765-4321",
+        "country": "Brazil",
+        "avatar": "/images/avatars/avatar14.png"
+    },
+    {
+        "id": 14,
+        "name": "Yuki Tanaka",
+        "email": "yuki.tanaka@email.com",
+        "phone": "+81 3-1234-5678",
+        "country": "Japan",
+        "avatar": "/images/avatars/avatar15.png"
+    },
+    {
+        "id": 15,
+        "name": "Olivia Brown",
+        "email": "olivia.brown@email.com",
+        "phone": "+64 9 123 4567",
+        "country": "New Zealand",
+        "avatar": "/images/avatars/avatar16.png"
+    }
+]
